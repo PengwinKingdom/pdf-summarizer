@@ -32,21 +32,6 @@ pdf-summarizer/
 └── requirements.txt
 ```
 
-## Project Structure
-
-```bash
-pdf-summarizer/
-│
-├── app/
-│   ├── main.py
-│   ├── pdf_utils.py
-│   └── summarizer.py
-│
-├── uploads/
-├── README.md
-└── requirements.txt
-```
-
 ## Run locally
 
 ### Requirements

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>PDF Summarizer</h1>
+      <p class="subtitle">
+        Upload your academic PDF and get a quick summary with key points.
+      </p>
+
+      <div class="upload-box">
+        <input type="file" id="pdfFile" accept=".pdf" />
+        <button id="uploadBtn">Generate Summary</button>
+      </div>
+
+      <p id="statusMessage" class="status"></p>
+    </section>
+
+    <section class="results">
+      <div class="result-card">
+        <h2>Summary</h2>
+        <p id="summaryText">Your summary will appear here.</p>
+      </div>
+
+      <div class="result-card">
+        <h2>Key Points</h2>
+        <ul id="keyPointsList">
+          <li>Your key points will appear here.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
