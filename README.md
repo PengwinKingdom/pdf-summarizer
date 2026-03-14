@@ -71,24 +71,3 @@ uvicorn app.main:app --reload
 Backend URL: http://127.0.0.1:8000
 
 API Docs (Swagger): http://127.0.0.1:8000/docs
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|-------:|----------|-------------|
-| GET | / | Check if the API is running |
-| GET | /health | Health check |
-| POST | /upload-pdf | Upload a PDF, extract text, generate summary and key points |
-
-
-## Current Status
-
-This is the first MVP version of the project.
-
-At the moment, it can:
-- upload a PDF file
-- extract text from the PDF
-- generate a simple summary
-- return key points from the content
-
-
