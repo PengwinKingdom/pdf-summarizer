@@ -27,9 +27,15 @@ pdf-summarizer/
 │   ├── pdf_utils.py
 │   └── summarizer.py
 │
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 ├── uploads/
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Run locally
@@ -73,6 +79,13 @@ Backend URL: http://127.0.0.1:8000
 API Docs (Swagger): http://127.0.0.1:8000/docs
 
 
+### 5) Frontend 
+Open the file below in your browser:
+
+```bash
+frontend/index.html
+```
+
 ## API Endpoints
 
 | Method | Endpoint | Description |
@@ -91,3 +104,11 @@ At the moment, it can:
 - extract text from the PDF
 - generate a simple summary
 - return key points from the content
+
+## Future Improvements
+
+- Improve summary quality
+- Improve key point extraction
+- Add document statistics such as page count and word count
+- Add student-focused study modes
+- Integrate more advanced AI-based summarization
